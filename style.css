@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(to left, #FF8F59, #F75000);
+}
+
+#content {
+  position: relative;
+  justify-content: center;
+  width: 400px;
+  top: 20%;
+  left: 30%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.sectionDiv {
+  display: flex;
+  background-color: #FFF;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 6px;
+  margin-top: 6px;
+}
+
+p.title {
+  margin: 0px;
+}
+
+div.answer {
+  background-color: #fff;
+  border-top: 1px solid;
+  border-color: #ADADAD;
+  border-radius: 5px;
+  padding: 12px 6px;
+  margin-top: 0px 0px 6px 0px;
+  font-size: 14px;
+}
