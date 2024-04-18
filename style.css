@@ -23,6 +23,11 @@ h2 {
   justify-content: space-between;
   padding: 12px 6px;
   margin-top: 6px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #FFCBB3;
+  }
 }
 
 p.title {
@@ -30,7 +35,7 @@ p.title {
 }
 
 div.answer {
-  background-color: #fff;
+  background-color: #FFCBB3;
   border-top: 1px solid;
   border-color: #ADADAD;
   border-radius: 5px;
@@ -38,3 +43,40 @@ div.answer {
   margin-top: 0px 0px 6px 0px;
   font-size: 14px;
 }
+
+/* .slide-down {
+  animation: slide-down 0.3s;
+}
+
+.slide-up {
+  animation: slide-up 0.3s;
+}
+
+@keyframes slide-down {
+  0% {
+    visibility: hidden;
+    height: 0;
+  }
+
+  95% {
+    visibility: visible;
+    height: slide-content-height;
+  }
+
+  100% {
+    visibility: visible;
+    height: auto;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    visibility: visible;
+    height: slide-content-height;
+  }
+
+  to {
+    visibility: hidden;
+    height: 0;
+  }
+} */
