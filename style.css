@@ -50,7 +50,6 @@ div.answer {
 
 .slide-up {
   display: none;
-  /* animation-name: slide-up; */
 }
 
 @keyframes slide-down {
@@ -68,4 +67,12 @@ div.answer {
     display: block;
     max-height: auto;
   }
+}
+
+.transform {
+  transform: rotate(45deg);
+}
+
+.color {
+  background-color: #FFCBB3;
 }
