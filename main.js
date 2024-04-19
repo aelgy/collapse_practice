@@ -1,28 +1,26 @@
 function collapse() {
   const toggle = event.target.nextElementSibling;
-  const add = event.target.children[1];
-  console.log(add)
-  if (toggle.style.display == "none") {
-    toggle.style.display = "block";
-    // add.classList.remove('fa-plus');
-    // add.classList.add('fa-square-minus');
-  } else if (toggle.style.display == "block") {
-    toggle.style.display = "none";
-    // add.classList.remove('fa-square-minus');
-    // add.classList.add('fa-plus');
+  if (toggle.classList.contains('slide-down')) {
+    toggle.classList.remove('slide-down');
+    toggle.classList.add('slide-up')
+  } else if (toggle.classList.contains('slide-up')) {
+    toggle.classList.remove('slide-up');
+    toggle.classList.add('slide-down');
+  } else {
+    toggle.classList.add('slide-down');
   }
 }
 
 function collapseI() {
   const toggle = event.target.closest("div").nextElementSibling;
   const add = event.target;
-  if (toggle.style.display == "none") {
-    toggle.style.display = "block";
-    // add.classList.remove('fa-plus');
-    // add.classList.add('fa-square-minus');
-  } else if (toggle.style.display == "block") {
-    toggle.style.display = "none";
-    // add.classList.remove('fa-square-minus');
-    // add.classList.add('fa-plus');
+  if (toggle.classList.contains('slide-down')) {
+    toggle.classList.remove('slide-down');
+    toggle.classList.add('slide-up')
+  } else if (toggle.classList.contains('slide-up')) {
+    toggle.classList.remove('slide-up');
+    toggle.classList.add('slide-down');
+  } else {
+    toggle.classList.add('slide-down');
   }
 }

@@ -35,7 +35,7 @@ p.title {
 }
 
 div.answer {
-  background-color: #FFCBB3;
+  background-color: #FFF;
   border-top: 1px solid;
   border-color: #ADADAD;
   border-radius: 5px;
@@ -44,39 +44,28 @@ div.answer {
   font-size: 14px;
 }
 
-/* .slide-down {
-  animation: slide-down 0.3s;
+.slide-down {
+  animation: slide-down 0.1s linear both;
 }
 
 .slide-up {
-  animation: slide-up 0.3s;
+  display: none;
+  /* animation-name: slide-up; */
 }
 
 @keyframes slide-down {
   0% {
-    visibility: hidden;
+    display: none;
     height: 0;
   }
 
   95% {
-    visibility: visible;
-    height: slide-content-height;
+    display: block;
+    height: 4rem;
   }
 
   100% {
-    visibility: visible;
-    height: auto;
+    display: block;
+    max-height: auto;
   }
 }
-
-@keyframes slide-up {
-  from {
-    visibility: visible;
-    height: slide-content-height;
-  }
-
-  to {
-    visibility: hidden;
-    height: 0;
-  }
-} */
